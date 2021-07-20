@@ -23,4 +23,8 @@
     .social-link .address {
         width: 60%;
     }
+
+    .greeting-container .line {
+        font-size: 5em;
+    }
 }
