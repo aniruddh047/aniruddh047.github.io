@@ -1,5 +1,11 @@
 @media only screen and (min-width: 768px) {
 
+  /* theme definitions */
+  :root {
+    --main-theme: #ff1227;
+    --alt-theme: #005eb3;
+  }
+  
   .mdl-layout__drawer-button,
   .mdl-layout__content {
     display: none;
@@ -27,7 +33,7 @@
 
   .logo-container {
     display: inline-flex;
-    background: #ff1227;
+    background: var(--main-theme);
     height: 100%;
     width: 40vw;
     transform: translateY(100vh);
