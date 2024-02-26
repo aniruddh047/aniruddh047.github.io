@@ -2,8 +2,10 @@ import $ from "jquery";
 $(document).ready(main);
 
 function main() {
-  const year = (new Date()).getFullYear().toString()
-  $('#copyright-year').append(year);
+  const year = (new Date()).getFullYear()
+  let experience = Math.floor(((new Date() - new Date('October 10, 2016'))/31556952000)).toString();
+  $('#copyright-year').append(year.toString());
+  $('#experience-years').append(experience);
   $(".js-header-btn").on("click", handleNavClick);
   checkWidth();
   $('#js-prev-card').on('click', navigateCards);
