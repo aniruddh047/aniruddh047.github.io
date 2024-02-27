@@ -20,11 +20,25 @@
         margin: 15vh -8vh;
     }
 
+    .about-text {
+        padding: 0;
+    }
+
     .social-link .address {
         width: 60%;
     }
 
     .greeting-container .line {
         font-size: 5em;
+    }
+
+    .contact-section-content {
+        display:  flex;
+        flex-direction:  column;
+    }
+
+    .contact-section-image,
+    .contact-section-info {
+        width: 100%;
     }
 }

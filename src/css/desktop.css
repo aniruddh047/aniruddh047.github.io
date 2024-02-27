@@ -209,15 +209,13 @@
     width: 50vw;
     display: inline-flex;
     height: 75%;
-    transform: translateX(-60vw);
     justify-content: center;
     align-items: center;
-    animation: move-right 0.7s ease-in-out 1s forwards;
   }
 
   .download-resume-btn {
-    transform: translateY(100vh);
-    animation: move-up 2s ease-in-out 3s forwards;
+    opacity: 0;
+    animation: appear-low-to-high 1s ease-in-out 3s forwards;
   }
 
   .contact-fields {
@@ -239,7 +237,7 @@
   }
 
   .address-info .social-link i {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
 }

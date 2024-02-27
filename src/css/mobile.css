@@ -5,7 +5,7 @@
 
   .mdl-layout__drawer-button {
     color: white;
-    background: #d31f2f;
+    background: var(--main-theme);
     border-radius: 50%;
     padding: 2px;
   }
@@ -72,6 +72,7 @@
 
   .work-section-info {
     width: 100vw;
+    overflow: scroll;
   }
 
   .tech-icons-panel {
@@ -123,6 +124,10 @@
   .contact-section-info {
     width: 100vw;
     transform: translateX(0);
+  }
+
+  .contact-section-container .separator {
+    font-size: 1.5em;
   }
 
   .contact-section-container .separator::after {
