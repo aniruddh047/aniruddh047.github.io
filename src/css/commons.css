@@ -497,6 +497,7 @@ div {
   transform: translateY(10vh);
   opacity: 0;
   animation: appear-low-to-high 1s linear 1s forwards;
+  margin: 0 auto;
 }
 
 .contact-section-container {
@@ -553,6 +554,7 @@ div {
 
 .social-link {
   transition: transform 0.2s linear;
+  margin: 0 15px;
 }
 
 .social-link i {
